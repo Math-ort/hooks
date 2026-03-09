@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bab05dad;
+  color: #696767;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.character-card{
+display: flex;
+justify-content: center;
+gap:20px;
+background-color: rgba(237, 204, 19, 0.815);
+border-radius: 10px;
+padding:10px;
+transition: transform 0.2s;
+cursor: pointer;
+}
+.character-card > div:hover {
+  transform: translateY(-5px);
+}
+.character-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.character-card h2{
+  color: #646cffaa;
+}
+
+.character-card p {
+  color: #6f57b9;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
